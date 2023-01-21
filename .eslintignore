@@ -12,7 +12,12 @@ dist/**/*
 # Coverage reports
 coverage
 
-#settings linter
+# Settings linter
+.lintstagedrc
 .eslintrc.js
 .prettierrc.js
 commitlint.config.js
+
+# Configs
+jest.config.ts
+tsconfig.json
